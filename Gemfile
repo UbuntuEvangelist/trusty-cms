@@ -13,13 +13,13 @@ gemspec
 
 group :development, :test do
   gem 'acts_as_list'
-  gem 'codeclimate-test-reporter'
+  gem 'codeclimate-test-reporter', '>= 1.0.8'
   gem 'database_cleaner'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 4.10.0'
   gem 'launchy',         '~> 2.4.2'
   gem 'mysql2'
   gem 'poltergeist',      '~> 1.14.0'
   gem 'pry-byebug'
   gem 'rails-observers'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.7.2'
 end
