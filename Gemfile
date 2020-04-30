@@ -13,7 +13,7 @@ gemspec
 
 group :development, :test do
   gem 'acts_as_list'
-  gem 'codeclimate-test-reporter'
+  gem 'codeclimate-test-reporter', '>= 1.0.8'
   gem 'database_cleaner'
   gem 'factory_bot_rails'
   gem 'launchy',         '~> 2.4.2'
