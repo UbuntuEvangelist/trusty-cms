@@ -12,14 +12,14 @@ gem 'trustygems', '~> 0.2.0'
 gemspec
 
 group :development, :test do
-  gem 'acts_as_list'
+  gem 'acts_as_list', '>= 0.9.15'
   gem 'codeclimate-test-reporter'
   gem 'database_cleaner'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 4.10.0'
   gem 'launchy',         '~> 2.4.2'
   gem 'mysql2'
   gem 'poltergeist',      '~> 1.14.0'
   gem 'pry-byebug'
   gem 'rails-observers'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.7.2'
 end
